@@ -1,33 +1,28 @@
-import { log, button } from "./utils/console";
+// import { log, button } from "./utils/console";
 
-function counter() {
-  let count = 0;
-  const sum = () => {
-    count++;
-    log(count);
-  };
-  const rest = () => {
-    count--;
-    log(count);
-  };
-  return {
-    rest,
-    sum,
-  };
-}
+// function counter() {
+//   let count = 0;
+//   const sum = () => {
+//     count++;
+//     log(count);
+//   };
+//   const rest = () => {
+//     count--;
+//     log(count);
+//   };
 
-const { sum, rest } = counter();
+//   return {
+//     rest,
+//     sum,
+//   };
+// }
 
-button("plus", "+", () => {
-  sum();
-});
+// const { sum, rest } = counter();
 
-button("minus", "-", () => {
-  rest();
-});
+// button("sum", "+", () => {
+//   sum();
+// });
 
-// sum();
-// sum();
-// sum();
-// sum();
-// sum();
+// button("minus", "-", () => {
+//   rest();
+// });
